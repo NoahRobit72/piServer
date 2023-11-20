@@ -7,7 +7,7 @@ loaded_array = np.load('my_array.npy')
 
 data = decode(loaded_array)
 if(data == []):
-    print("not an image")
+    print("not a QR")
 else:
     print(data[0].data.decode('utf-8'))
     

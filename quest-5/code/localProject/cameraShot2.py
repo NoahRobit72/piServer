@@ -5,6 +5,9 @@
 
 import numpy as np
 import time
+import subprocess
+import sys
+import os
 from picamera2 import Picamera2, Preview
 
 picam2 = Picamera2()
