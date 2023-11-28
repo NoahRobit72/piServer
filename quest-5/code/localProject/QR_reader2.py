@@ -13,7 +13,7 @@ if not data:
     print("No QR code found in the image.")
 else:
     print(data[0].data.decode('utf-8'))
-
+    
 time.sleep(0.25)
 # send_udp_data(data[0].data.decode('utf-8'))
 
